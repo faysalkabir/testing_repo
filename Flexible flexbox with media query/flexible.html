@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible Flex</title>
+
+    <style>
+    
+    .container1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .container1 img{
+        border: 1px solid red;
+
+    }
+
+     .cn1dsc{
+        border: 1px solid green;
+     }
+     
+
+     .container2{
+        display: flex;
+        /* justify-content: space-between; */
+     }
+
+
+     .cn2p1{
+        border: 1px solid yellow;
+        width: 50%;
+     }
+
+     .cn2p2{
+        border: 1px solid brown;
+        width: 50%;
+     }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <h3>We'll try to insert 2 photos and 2 paragraph for each photo and then make them responsive for small screen</h3>
+
+    <div class="container1">
+        <img src="./Images/Flower 01.png" alt="">
+        <div class="cn1dsc">
+            <h4>Tulip</h4>
+            <p>it's a beautiful flower, found in everywhere, ping tulip is not common.</p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="cn2p1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate exercitationem repellendus reprehenderit eligendi aut dicta earum nostrum repellat quisquam.
+            </p>
+        </div>
+
+        <div class="cn2p2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate exercitationem repellendus reprehenderit eligendi aut dicta earum nostrum repellat quisquam.
+            </p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

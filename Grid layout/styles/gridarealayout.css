@@ -1,0 +1,42 @@
+.header, .nav, .main, .sidebar, .advertise, .footer{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.advertise{
+    grid-area: advertise;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-areas: 
+    "header header header header"
+    "nav main main sidebar"
+    "nav main main sidebar"
+    "nav main main advertise"
+    "nav main main advertise"
+    "footer footer footer footer"
+    ;
+    gap: 20px;
+}
+
